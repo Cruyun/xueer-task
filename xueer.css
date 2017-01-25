@@ -6,6 +6,7 @@ body{
 
 button{
 	outline: 0;
+	border: 0;
 }
 
 .header{
@@ -230,7 +231,7 @@ ul a:hover{
 .round{
     -moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-	background: black;
+	border-color: black;
 	height: 4px;
 	width: 4px;
 	border-radius: 3px;
@@ -240,11 +241,11 @@ ul a:hover{
 }
 /*.round:before{
 	background-color: black;
-}
+}*/
 .round:hover{
 	color: red;
 	text-decoration:none;
-}*/
+}
 
 .recommend{
 	width: 1000px;
